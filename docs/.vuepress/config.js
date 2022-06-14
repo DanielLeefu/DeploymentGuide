@@ -47,6 +47,7 @@ module.exports = {
         collapsable: false,
         children: [
           "/basic/git-actions/",
+          "/basic/git-pages/",
         ],
       },
       {
@@ -60,7 +61,7 @@ module.exports = {
         title: "进阶指南",
         collapsable: false,
         children: [
-        
+          "/basic/git-actions-create/"
         ],
       },
     ],
