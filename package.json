@@ -1,0 +1,24 @@
+{
+  "name": "DeploymentGuide",
+  "version": "1.0.0",
+  "description": "《Deploy 实践指南》",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielLeefu/DeploymentGuide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielLeefu/DeploymentGuide/issues"
+  },
+  "homepage": "https://github.com/DanielLeefu/DeploymentGuide#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
