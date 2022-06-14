@@ -12,8 +12,8 @@ on:
 jobs: 
  # 任务名称
   build-deploy:
-  # 执行环境，默认是最新版本的Ubuntu系统
-  runs-on: ubuntu-latest
+    # 执行环境，默认是最新版本的Ubuntu系统
+    runs-on: ubuntu-latest
     steps: 
        # 下载源码
       - name: Checkout 🐒
