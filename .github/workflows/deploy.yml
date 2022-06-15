@@ -15,26 +15,25 @@ jobs:
     # 执行环境，默认是最新版本的Ubuntu系统
     runs-on: ubuntu-latest
     steps: 
+
        # 下载源码
       - name: Checkout 🐒
         uses: actions/checkout@master
 
        # 打包构建
-      - run: npm install
-      - run: npm run build
+      - name: Build 🔧
+        run: npm install && npm run build
 
       # deploy
       - name: Deploy 🚀
-        # 这个是第三方提供的库，可以推送打包后的内容到指定分支
-        user: peaceiris/actions-gh-pages@v3
+        # 第三方提供的库，可以推送打包后的内容到指定分支
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          # 这边需要设置第二步获取到的deploy key，否则会提示没有权限推送代码
-          deploy_key: ${{ secrets.VUEPRESSCI }}
-          # 推送到该仓库中，地址格式为github名称/仓库名
-          external_repository: DanielLeefu/DeploymentGuide
+          # 这边需要设置git TOKEN
+          token: ${{ secrets.VUEPRESSCI }}
           # 推送的分支
-          publish_branch: gh-pages
+          branch: gh-pages
           # 推送的内容
-          publish_dir: docs/.vuepress/dist
+          folder: docs/.vuepress/dist
 
 
