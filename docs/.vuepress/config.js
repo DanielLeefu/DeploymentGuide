@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/",
+  base: "/DeploymentGuide/",
   title: "前端部署实践指南",
   description: "从基础到实践，带你全面了解和掌握前端部署流程",
   head: [
