@@ -20,3 +20,4 @@ npm install -D vuepress
 
 根据vuepress规范来创建文件夹，创建一个docs文件夹，然后创建.vuepress文件夹，在.vuepress 里面创建config.js,来写入配置文件
 
+lallal

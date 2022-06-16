@@ -48,7 +48,7 @@ module.exports = {
         children: [
           "/basic/git-actions/",
           "/basic/git-pages/",
-          "/basic/deploy-simple"
+          "/basic/deploy-simple/"
         ],
       },
       {
