@@ -1,3 +1,11 @@
+# 自动化构建
+
+常见的CI有下面几类
+
+- Travis CI
+- Circle CI
+- GitHub Action
+
 # git Actions
 
 上一节我们学习了如何将一个简单的静态页面打包部署到服务器上，这节我们就来看下这样存在的几个问题
