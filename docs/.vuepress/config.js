@@ -47,7 +47,7 @@ module.exports = {
         collapsable: false,
         children: [
           "/basic/git-actions/",
-          "/basic/git-pages/",
+          "/basic/nginx-learn/",
           "/basic/deploy-simple/"
         ],
       },
@@ -55,7 +55,7 @@ module.exports = {
         title: "部署实践",
         collapsable: false,
         children: [
-         "/basic/deploy-simple/"
+         "/basic/docker-simple/",
         ],
       },
       {
